@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: black;
+    color: black;
+    font-family: 'Baskerville Old Face', 'Times New Roman', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 12pt;
+}
+
+#contendor{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#header{
+    display: table;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    background-image: url(../img/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#header h1{
+    color: blue;
+    text-align: center;
+    line-height: 250px;
+}
+
+#cuerpo{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#cuerpo h1{
+    text-align: center;        
+}
+
+#cuerpo h2{
+    color:white;  
+    margin-left: 10px;      
+}
+
+#cuerpo h4, h5{
+    text-align: center;    
+    margin-top: 1%;    
+    margin-bottom: 1%;
+}
+
+#footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#nav{
+    display: table;
+    width: 100%;
+    background-color: black;
+}
+
+#nav ol{
+    list-style-type: none;
+}
+
+#nav ol li{
+    display: inline-flex;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+#nav ol li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: chartreuse;
+}
+
+#nav ol li a:hover{
+    color: red;
+    background-color: black;
+}
+
+.draw{
+    width: 360px;
+    height: 360px;
+    margin: 10px auto 10px auto;
+    display: table;
+}
+
+.draw1{
+    width: 360px;
+    height: 360px;
+    margin: 10px auto 10px auto;
+    display: table;
+}
+
+.draw2{
+    width: 360px;
+    height: 360px;
+    margin: 10px auto 10px auto;
+    display: table;
+}
+
+.draw3{
+    width: 360px;
+    height: 360px;
+    margin: 10px auto 10px auto;
+    display: table;
+}
+
+.draw:hover{
+   border-radius: 15px;
+   border: 1px solid blue;
+}
+
+.draw1:hover{
+   border-radius: 15px;
+   border: 1px solid blue;
+}
+
+.draw2:hover{
+   border-radius: 15px;
+   border: 1px solid blue;
+}
+
+.draw3:hover{
+   border-radius: 15px;
+   border: 1px solid blue;
+}
+
+
+textarea{
+    width: 500px;
+    height: 100px;
+}
+
+form{
+    width: 50%;
+    height: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: left;
+}
+
+label{
+    color: white;
+}
+
+iframe{
+    margin: 15px 15;
+}
+
+.parrafo-size{
+    width: 72%;
+    float: left;
+    display: table;
+}
+
+.flotar-derecha{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-none{
+    float: none;
+}
